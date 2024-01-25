@@ -11,3 +11,10 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```
 
 This is my first time creating a webpage using quarto
+
+And now I am going to plot something
+
+```{r}
+library(tidyverse)
+glimpse(mtcars)
+```
