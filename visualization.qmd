@@ -1,0 +1,12 @@
+---
+title: "visualization"
+---
+
+This is a new page
+
+```{r}
+library(tidyverse)
+mtcars |>
+  ggplot(aes(mpg, wt)) +
+  geom_point()
+```
